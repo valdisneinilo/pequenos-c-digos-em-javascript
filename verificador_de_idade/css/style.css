@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(92, 92, 167);
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 20px;
+}
+
+#corpo{
+    background-color: white;
+    display: block;
+    max-width: 600px;
+    min-width: auto;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.438);
+}
+#corpo > div{
+    font-size: 1.2em;
+    padding: 15px;
+    font-weight: 600;
+}
+#foto{
+    display: block;
+    margin: auto;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

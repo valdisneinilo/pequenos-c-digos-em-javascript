@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    
+    <section id="corpo">
+        <div >
+            <p>Número:
+                <input type="number" name="txtnum" id="txtnum">
+                <input id="button" type="button" value="Gerar Tabuada" onclick="gerar()">
+            </p>
+            <p>Operador:
+                <input type="radio" name="radmarc" id="soma" checked>
+                <label for="soma">Soma</label>
+                <input type="radio" name="radmarc" id="subtracao">
+                <label for="subtracao">Subtração</label>
+                <input type="radio" name="radmarc" id="multiplicacao">
+                <label for="multiplicacao">Multiplicação</label>
+                <input type="radio" name="radmarc" id="divisao">
+                <label for="divisao">Divisão</label>
+            </p>
+            
+            
+        </div>          
+        <div id="res">
+            <select name="result" id="resultado" size="10">
+                <option>Digite um número acima</option>
+            </select>
+
+        </div>
+    </section>
+        
+   
+    <footer>
+        <p>&copy; Valdisnei Nilo</p>
+    </footer>
+    
+    <script src="javascript/script.js"></script>
+</body>
+</html>
